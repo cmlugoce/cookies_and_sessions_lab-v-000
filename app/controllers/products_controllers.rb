@@ -1,9 +1,9 @@
 class ProductsController < ApplicationController
 
- def index 
- end 
+ def index
+ end
 
- def add 
+ def add
    cart << params[:products]
    render :index
 
